@@ -14,6 +14,70 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "DMSans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #f9f9f9;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 15px;
+  font-size: 1.7rem;
+  letter-spacing: -1.8px;
+}
+
+.box-1 {
+  padding: 35px 40px;
+  background-color: hsl(256, 67%, 59%);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.box-1 img {
+  width: 80%;
+  height: auto;
+}
+
+.box-1 p {
+  color: hsl(31, 66%, 93%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: hsl(39, 100%, 71%);
+}
+
+.box-2 {
+  padding: 10px;
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.box-2 img {
+  width: 100%;
+  height: auto;
+}
+
+.box-2 p {
+  line-height: 1;
+}
+
 footer {
   font-size: 11px;
   text-align: center;
