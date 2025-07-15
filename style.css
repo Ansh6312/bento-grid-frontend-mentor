@@ -26,7 +26,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   padding: 30px 15px;
   font-size: 1.7rem;
   letter-spacing: -1.8px;
@@ -63,7 +63,7 @@ h1 span {
 }
 
 .box-2 {
-  padding: 10px;
+  padding: 15px;
   color: hsl(0, 0%, 7%);
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
@@ -76,6 +76,86 @@ h1 span {
 
 .box-2 p {
   line-height: 1;
+}
+
+.box-3 {
+  padding: 15px 15px 0;
+  max-height: 225px;
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-3 p {
+  width: 97%;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.box-3 img {
+  width: 70%;
+}
+
+.box-4 {
+  padding: 20px 15px;
+  background-color: hsl(254, 88%, 90%);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.box-4 img {
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
+
+.box-5 {
+  padding: 20px 0;
+  background-color: hsl(256, 67%, 59%);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  line-height: 1;
+}
+
+.box-5 img,
+.box-5 p {
+  width: 50%;
+  height: auto;
+}
+
+.lighter {
+  font-size: 1.2rem;
+  letter-spacing: normal;
+  color: hsla(0, 0%, 0%, 0.7);
+}
+
+.box-6 {
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box-6 img {
+  width: 80%;
+  height: auto;
+}
+
+.box-6 div {
+  font-size: 2.5rem;
+}
+
+.box-6 p {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 0%, 0.8);
+  letter-spacing: normal;
 }
 
 footer {
