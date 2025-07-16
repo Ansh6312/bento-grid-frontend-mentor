@@ -28,7 +28,7 @@ main {
   align-items: center;
   gap: 25px;
   padding: 30px 15px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   letter-spacing: -1.8px;
 }
 
@@ -158,8 +158,47 @@ h1 span {
   letter-spacing: normal;
 }
 
+.box-7 {
+  padding: 25px 15px 20px 25px;
+  background-color: hsl(31, 66%, 93%);
+  border-radius: 10px;
+}
+
+.box-7 p {
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.box-7 span {
+  color: hsl(256, 67%, 59%);
+  font-style: italic;
+}
+
+.box-7 img {
+  width: 100%;
+  max-width: 200px;
+  height: 90px;
+}
+
+.box-8 {
+  padding: 20px;
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 10px;
+}
+
+.box-8 img {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 20px;
+}
+
+.box-8 p {
+  width: 80%;
+  line-height: 1;
+}
+
 footer {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
 }
 footer a {
